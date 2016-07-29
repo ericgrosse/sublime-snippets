@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-import React from 'react';
+import React, {PropTypes} from 'react';
 
 const ${1:ComponentName} = ({${2:props}}) => {
   return (
