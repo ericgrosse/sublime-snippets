@@ -10,7 +10,7 @@ const ${1:ComponentName} = ({${2:props}}) => {
 
 ${1:ComponentName}.propTypes = {
   ${4://myProp: PropTypes.string.isRequired}
-}
+};
 
 export default ${1:ComponentName};
 
