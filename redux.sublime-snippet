@@ -3,6 +3,7 @@
 import React, {PropTypes} from 'react';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
+${3:// import actions here}
 
 class ${1:ComponentName} extends React.Component {
   constructor(props, context) {
@@ -19,19 +20,18 @@ class ${1:ComponentName} extends React.Component {
 }
 
 ${1:ComponentName}.propTypes = {
-  //myProp: PropTypes.string.isRequired
-  $3
+  ${5://myProp: PropTypes.string.isRequired}
 };
 
 function mapStateToProps(state, ownProps) {
   return {
-    state: state
+    ${6:state: state}
   };
 }
 
 function mapDispatchToProps(dispatch) {
   return {
-    actions: bindActionCreators(actions, dispatch)
+    actions: bindActionCreators(${4:actions}, dispatch)
   };
 }
 
