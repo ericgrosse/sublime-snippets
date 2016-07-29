@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+import React from 'react';
+
+const ${1:ComponentName} = ({${2:props}}) => {
+  return (
+    <div>${3:Content}</div>
+  );
+};
+
+${1:ComponentName}.propTypes = {
+  ${4://myProp: PropTypes.string.isRequired}
+}
+
+export default ${1:ComponentName};
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>stateless-component</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>
